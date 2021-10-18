@@ -1,0 +1,41 @@
+.userdetail {
+    max-width: 343px;
+    margin-top: 3.5rem;
+    padding: 0;
+}
+
+form{
+    display:block;
+    border-radius: 2rem;
+    font-family: "Times New Roman", Times, serif;
+}
+
+label{
+    margin-top: 1.5rem;
+    margin-left: 1.5rem;
+}
+
+.form-control{
+    width: 88%;
+    border: 1.5px solid aqua;
+    margin-left: 20px;
+    border-radius: 0.75rem;
+    color:aqua;
+}
+
+form, .form-control{
+    background-color:#00000082;
+}
+
+select option{
+    background-color:aqua;
+} 
+
+@media only screen and (orientation: portrait){
+    .container{
+        max-width: 293px;
+    }
+    .form-control{
+        font-size: 0.7rem;
+    }
+}

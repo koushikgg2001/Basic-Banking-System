@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Home</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- JavaScript Libraries -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <!-- Google Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Festive&family=Open+Sans+Condensed:wght@300&display=swap">
+    
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/navbar.css"> 
+</head>
+
+<body>
+
+  <div class ="background ">
+    <div class ="blur">
+    
+      <!-- top navigation bar -->
+      <nav class="navbar navbar-expand-sm sticky-top navbar-dark">
+        <p class="navbar-brand">Sparks Bank</p>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent" >
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="viewcustomers.php"  role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Customer</a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="customerdetails.php">View Customers</a>
+                <a class="dropdown-item" href="transfermoney.php">Transfer Money</a>
+                <a class="dropdown-item" href="transactionhistory.php">Transaction History</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <!-- index -->
+      <div class ="container index">
+        <h2>Welcome to</h2>
+        <h1>Sparks Bank</h1>
+        <a href="customerdetails.php"><button type="button" class="btn btn-info">View Customers</button></a>
+        <a href="transfermoney.php"><button type="button" class="btn btn-info">Transfer Money</button></a><br>
+        <a href="transactionhistory.php"><button type="button" class="btn btn-info">Transaction History</button></a>
+      </div>
+
+      <!-- footer -->
+      <footer class="text-center fixed-bottom mt-5 py-2">
+        <div>
+          <p>&copy 2020. Koushik G G<br> The Sparks Foundation </p>
+        </div>
+      </footer>
+
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,44 @@
+table {
+  color:cyan!important;
+  background-color:#00000082;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+}
+
+th, td {
+  border: 1px solid aquamarine!important;
+}
+
+tbody {
+  display:block;
+  max-height: 70vh;
+  overflow-y: scroll;
+}
+
+td{
+  vertical-align:middle!important;
+}
+
+@media only screen and (max-height : 562px){
+  tbody{
+    max-height: 60vh;
+  }
+} 
+  
+@media only screen and (orientation: portrait){
+  tbody{
+    max-height: 69vh;
+  }
+}
+
+.customerdetails {
+  max-width: 449px;
+}
+
+.transactionhistory{
+  max-width: 551px;
+}
+
+.transfermoney{
+  max-width: 566px;
+}

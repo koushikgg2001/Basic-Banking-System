@@ -1,0 +1,39 @@
+.navbar {
+  padding: 0rem 1rem;
+  font-family: 'Bebas Neue', cursive;
+  background-color:#00000082;
+  font-size: 1.5em!important;
+}
+    
+.navbar-brand {
+  color: aqua!important;
+  font-size: 2.5rem!important;
+  padding-bottom: 0;
+  margin-bottom: 0;
+  font-family: 'Festive', cursive;
+}
+
+a {
+  color: aqua!important;
+  
+}
+
+a:hover{
+  color: aquamarine!important;
+  background-color: transparent;
+}
+
+.dropdown-menu {
+  padding: 0rem 0.5rem;
+  background-color: #00000082;
+  border: 0px;
+}
+
+.dropdown-item:hover{
+  background-color: transparent;
+}
+
+footer{
+  background-color:#00000082;
+  font-family: "Times New Roman", Times, serif;
+}

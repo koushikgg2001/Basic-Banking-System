@@ -1,0 +1,84 @@
+body{
+    color: aqua;  
+}
+
+.background {
+  background-image: url(../images/background.jpeg);
+  background-color:#081013;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+}
+
+.blur {
+  background:#2a4d8014;
+  backdrop-filter: blur(8px);
+  height: 100%;
+  width: 100%;
+}
+
+footer p {
+  margin-bottom: 0rem;
+  font-size: 0.7rem;
+}
+
+.btn {
+  background: transparent;
+  border-radius: 0.75rem;
+  margin:5px;
+  border: 1.5px solid aqua;
+  color: aqua;
+}
+
+.btn:hover{
+  transform: scale(1.1);
+  background-color:aquamarine;
+  color: black;
+}
+
+.heading{
+  margin-top:1rem;
+  font-family: 'Bebas Neue', cursive;
+}
+
+.index{
+  text-align:center;
+  background-color:#00000082;
+  border-radius: 4.75rem;
+  font-family: 'Bebas Neue', cursive;
+  padding:25px;
+  max-width:21rem;
+  margin-top:5rem;
+}
+  
+.about{
+  text-align: center;
+  background-color:#00000082;
+  max-width:37rem;
+  overflow-y:scroll;
+  max-height: 72vh;
+  font-family: "Times New Roman", Times, serif;
+  border-radius: 2rem;
+  margin-top:1rem;
+  padding:10px;
+}
+::-webkit-scrollbar {
+  width: 0px;
+  background: transparent;
+}
+@media only screen and (max-height : 562px){
+  .about{
+    max-height: 60vh;
+  }
+} 
+  
+@media only screen and (orientation: portrait){
+  .about{
+    max-height: 70vh;
+  }
+}
+
+ 
