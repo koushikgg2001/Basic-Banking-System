@@ -12,4 +12,4 @@ Flow : Home Page > View all customers > Select and View one customer > Transfer 
 
 Website Link --> https://astronomical-warran.000webhostapp.com/spark/index.html
 
-<!-- The website is hosted on 000webhost. Since it is a free hosting service, kindly refresh the page in case the tables are not loading properly due to network traffic. -->
+The website is hosted on 000webhost. Since it is a free hosting service, kindly refresh the page in case the tables are not loading properly due to network traffic.
